@@ -56,7 +56,12 @@ Cat.all.each do |cat|
   cat.owner = nil 
 end 
 end
+<<<<<<< HEAD
 def list_pets
   "I have #{self.dogs.count} dog(s), and #{self.cats.count} cat(s)."
 end
+=======
+def list_pets 
+  
+>>>>>>> 30fda37885df5f7b788573398c88a8f5f986699c
 end
